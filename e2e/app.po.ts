@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class Ang2WebpackPage {
+export class UpdaterTesterPage {
   navigateTo() {
     return browser.get('/');
   }

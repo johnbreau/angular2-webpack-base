@@ -1,14 +1,14 @@
-import { Ang2WebpackPage } from './app.po';
+import { UpdaterTesterPage } from './app.po';
 
-describe('ang2-webpack App', function() {
-  let page: Ang2WebpackPage;
+describe('updater-tester App', () => {
+  let page: UpdaterTesterPage;
 
   beforeEach(() => {
-    page = new Ang2WebpackPage();
+    page = new UpdaterTesterPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
